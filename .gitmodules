@@ -176,8 +176,8 @@
 	branch = REL1_35
 [submodule "extensions/Tabs"]
 	path = extensions/Tabs
-	url = https://github.com/wikimedia/mediawiki-extensions-Tabs.git
-	branch = REL1_35
+	url = https://github.com/LLWiki/mediawiki-extensions-Tabs.git
+	branch = llwiki-1.35
 [submodule "extensions/TemplateSandbox"]
 	path = extensions/TemplateSandbox
 	url = https://github.com/wikimedia/mediawiki-extensions-TemplateSandbox.git
