@@ -640,7 +640,7 @@ class LinksUpdate extends DataUpdate {
 
 			$arr[] = [
 				'cl_from' => $this->mId,
-				'cl_to' => $name,
+				'cl_to' => $nt->getDBKey(),
 				'cl_sortkey' => $sortkey,
 				'cl_timestamp' => $this->getDB()->timestamp(),
 				'cl_sortkey_prefix' => $prefix,
