@@ -1047,7 +1047,10 @@ $wgFileBlacklist = [
 	# Other types that may be interpreted by some servers
 	'shtml', 'jhtml', 'pl', 'py', 'cgi',
 	# May contain harmful executables for Windows victims
-	'exe', 'scr', 'dll', 'msi', 'vbs', 'bat', 'com', 'pif', 'cmd', 'vxd', 'cpl' ];
+	'exe', 'scr', 'dll', 'msi', 'vbs', 'bat', 'com', 'pif', 'cmd', 'vxd', 'cpl',
+	# T341565
+	'xml',
+];
 
 /**
  * Files with these MIME types will never be allowed as uploads
@@ -1066,6 +1069,8 @@ $wgMimeTypeBlacklist = [
 	'text/scriptlet', 'application/x-msdownload',
 	# Windows metafile, client-side vulnerability on some systems
 	'application/x-msmetafile',
+	# XML files generally - T341565
+	'application/xml', 'text/xml',
 ];
 
 /**
@@ -9338,6 +9343,8 @@ $wgRawHtmlMessages = [
 	'googlesearch',
 	'feedback-terms',
 	'feedback-termsofuse',
+	'youhavenewmessagesmanyusers',
+	'youhavenewmessages',
 ];
 
 /**

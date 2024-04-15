@@ -40,7 +40,8 @@
 			"MinecraftAustralia",
 			"Սերգեյ Սաֆարյան",
 			"Armenoid",
-			"Vlad5250"
+			"Vlad5250",
+			"Amire80"
 		]
 	},
 	"tog-underline": "Հղումների ընդգծում՝",
@@ -1034,6 +1035,7 @@
 	"rcfilters-savedqueries-new-name-label": "Անուն",
 	"rcfilters-savedqueries-apply-label": "Ստեղծել զտիչ",
 	"rcfilters-savedqueries-cancel-label": "Չեղարկել",
+	"rcfilters-clear-all-filters": "Մաքրել բոլոր զտիչները",
 	"rcfilters-show-new-changes": "Դիտել նոր փոփոխությունները, սկսած $1",
 	"rcfilters-search-placeholder": "Զտիչի փոփոխություններ (զտիչի անվան համար օգտագործեք մենյուն կամ որոնումը)",
 	"rcfilters-search-placeholder-mobile": "Զտիչներ",
@@ -1511,7 +1513,7 @@
 	"enotif_lastvisited": "Տես $1՝ ձեր վերջին այցից ի վեր կատարված փոփոխությունների համար։",
 	"enotif_lastdiff": "Տես $1՝ այս փոփոխությունը դիտելու համար։",
 	"enotif_anon_editor": "անանուն մասնակից $1",
-	"enotif_body": "Հարգելի $WATCHINGUSERNAME,\n\n$PAGEEDITDATE {{grammar:genitive|{{SITENAME}}}} «$PAGETITLE» էջը $CHANGEDORCREATED $PAGEEDITOR մասնակցի կողմից, տես $PAGETITLE_URL ՝ ընթացիկ տարբերակի համար։\n\n$NEWPAGE\n\nԽմբագրման ամփոփում. $PAGESUMMARY $PAGEMINOREDIT\n\nԿապվել խմբագրողի հետ.\nէլ-փոստ՝ $PAGEEDITOR_EMAIL\nվիքի՝ $PAGEEDITOR_WIKI\n\nՀետագա տեղեկացումներ այս էջի փոփոխումների մասին չեն լինի, մինչև որ չայցելեք այն։ Դուք կարող եք նաև փոփոխել տեղեկացման դրոշները ձեր կողմից հսկվող բոլոր էջերի համար ձեր հսկացանկում։\n\n             {{grammar:genitive|{{SITENAME}}}} տեղեկացման ծառայություն\n\n--\nՁեր հսկացանկի նախընտրությունները փոխելու համար այցելեք՝\n{{canonicalurl:{{#special:EditWatchlist}}}}\n\nՀետադարձ կապ և օգնություն՝\n$HELPPAGE",
+	"enotif_body": "Հարգելի $WATCHINGUSERNAME,\n\n$PAGEINTRO $NEWPAGE\n\nԽմբագրման ամփոփում. $PAGESUMMARY $PAGEMINOREDIT\n\nԿապվել խմբագրողի հետ.\nէլ-փոստ՝ $PAGEEDITOR_EMAIL\nվիքի՝ $PAGEEDITOR_WIKI\n\nՀետագա տեղեկացումներ այս էջի փոփոխումների մասին չեն լինի, մինչև որ չայցելեք այն։ Դուք կարող եք նաև փոփոխել տեղեկացման դրոշները ձեր կողմից հսկվող բոլոր էջերի համար ձեր հսկացանկում։\n\n             {{grammar:genitive|{{SITENAME}}}} տեղեկացման ծառայություն\n\n--\nՁեր հսկացանկի նախընտրությունները փոխելու համար այցելեք՝\n{{canonicalurl:{{#special:EditWatchlist}}}}\n\nՀետադարձ կապ և օգնություն՝\n$HELPPAGE",
 	"enotif_minoredit": "Սա չնչին խմբագրում է",
 	"created": "ստեղծված է",
 	"changed": "փոփոխված է",
@@ -2318,6 +2320,7 @@
 	"pagelang-nonexistent-page": "$1 էջը գոյություն չունի",
 	"right-pagelang": "Փոխել էջի լեզուն",
 	"mediastatistics-nbytes": "{{PLURAL:$1|$1 բայթ|$1 բայթեր}} ($2; $3%)",
+	"mediastatistics-table-count": "Նիշքերի քանակը",
 	"mediastatistics-header-unknown": "Անհայտ",
 	"mediastatistics-header-audio": "Աուդիո",
 	"mediastatistics-header-video": "Վիդեո",

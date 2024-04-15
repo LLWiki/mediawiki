@@ -10,13 +10,46 @@ declare 1.35 as supporting PHP 8.0/8.1.
 PHP 8.0 workboard: https://phabricator.wikimedia.org/tag/php_8.0_support/
 PHP 8.1 workboard: https://phabricator.wikimedia.org/tag/php_8.1_support/
 PHP 8.2 workboard: https://phabricator.wikimedia.org/tag/php_8.2_support/
+PHP 8.3 workboard: https://phabricator.wikimedia.org/tag/php_8.3_support/
+
+== MediaWiki 1.35.14 ==
+
+This is a security and maintenance release of the MediaWiki 1.35 branch.
+
+=== Changes since MediaWiki 1.35.13 ===
+* Localisation updates.
+* (T344912) mail: Encode period (ascii 46) if it appears in encoded email
+  header.
+* (T347726, CVE-2023-51704) SECURITY: logging: Fix non-escaped messages
+  used in rights log.
+
+== MediaWiki 1.35.13 ==
+
+This is a maintenance release of the MediaWiki 1.35 branch.
+
+=== Changes since MediaWiki 1.35.12 ===
+* Tarball release to fix backport issues with patch for T341529.
 
 == MediaWiki 1.35.12 ==
 
-THIS IS NOT A RELEASE YET
+This is a security and maintenance release of the MediaWiki 1.35 branch.
 
 === Changes since MediaWiki 1.35.11 ===
 * Localisation updates.
+* (T333050, CVE-2023-45363) SECURITY: Fix infinite loop for
+  self-redirects with variants conversion.
+* (T341434) WikiImporter: Improve error message output.
+* (T341737) ApiBase: Cast $id to string in filterIDs.
+* (T342632) ApiComparePages: Add help url.
+* (T347227) ImportReporter: Make callback functions public.
+* doc: Improve description of type in extension.schema.v1.json.
+* (T340221, CVE-2023-45360) SECURITY: XSS via
+  'youhavenewmessagesmanyusers' and 'youhavenewmessages' messages.
+* (T341529, CVE-2023-45362) SECURITY: diff-multi-sameuser
+  ("X intermediate revisions by the same user not shown") ignores username
+  suppression.
+* (T341565, CVE-2023-3550) SECURITY: Stored XSS when uploading crafted XML
+  file to Special:Upload (non-standard configuration).
 
 == MediaWiki 1.35.11 ==
 
