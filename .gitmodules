@@ -156,8 +156,8 @@
 	branch = REL1_35
 [submodule "extensions/MP3MediaHandler"]
 	path = extensions/MP3MediaHandler
-	url = https://github.com/wikimedia/mediawiki-extensions-MP3MediaHandler.git
-	branch = REL1_35
+	url = https://github.com/LLWiki/mediawiki-extensions-MP3MediaHandler.git
+	branch = llwiki-1.35
 [submodule "extensions/Popups"]
 	path = extensions/Popups
 	url = https://github.com/wikimedia/mediawiki-extensions-Popups.git
