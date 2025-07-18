@@ -140,8 +140,8 @@
 	branch = REL1_35
 [submodule "extensions/CheckUser"]
 	path = extensions/CheckUser
-	url = https://github.com/wikimedia/mediawiki-extensions-CheckUser.git
-	branch = REL1_35
+	url = https://github.com/LLWiki/mediawiki-extensions-CheckUser.git
+	branch = llwiki-1.35
 [submodule "extensions/CodeMirror"]
 	path = extensions/CodeMirror
 	url = https://github.com/wikimedia/mediawiki-extensions-CodeMirror.git
@@ -197,7 +197,7 @@
 [submodule "extensions/Widgets"]
 	path = extensions/Widgets
 	url = https://github.com/wikimedia/mediawiki-extensions-Widgets.git
-	branch = REL1_35
+	branch = REL1_39
 [submodule "skins/MinervaNeue"]
 	path = skins/MinervaNeue
 	url = https://github.com/LLWiki/mediawiki-skins-MinervaNeue.git
@@ -218,3 +218,11 @@
 [submodule "extensions/PinyinSort"]
 	path = extensions/PinyinSort
 	url = https://github.com/LLWiki/MW-PinyinSort.git
+[submodule "extensions/Elastica"]
+	path = extensions/Elastica
+	url = https://github.com/wikimedia/mediawiki-extensions-Elastica.git
+	branch = REL1_35
+[submodule "extensions/CirrusSearch"]
+	path = extensions/CirrusSearch
+	url = https://github.com/wikimedia/mediawiki-extensions-CirrusSearch.git
+	branch = REL1_35
