@@ -150,3 +150,59 @@
 	path = vendor
 	url = https://gerrit.wikimedia.org/r/mediawiki/vendor
 	branch = REL1_43
+[submodule "extensions/AntiSpoof"]
+	path = extensions/AntiSpoof
+	url = https://github.com/wikimedia/mediawiki-extensions-AntiSpoof.git
+	branch = REL1_43
+[submodule "extensions/CharInsert"]
+	path = extensions/CharInsert
+	url = https://github.com/wikimedia/mediawiki-extensions-CharInsert.git
+	branch = REL1_43
+[submodule "extensions/CheckUser"]
+	path = extensions/CheckUser
+	url = https://github.com/wikimedia/mediawiki-extensions-CheckUser.git
+	branch = REL1_43
+[submodule "extensions/CodeMirror"]
+	path = extensions/CodeMirror
+	url = https://github.com/wikimedia/mediawiki-extensions-CodeMirror.git
+	branch = REL1_43
+[submodule "extensions/Loops"]
+	path = extensions/Loops
+	url = https://github.com/wikimedia/mediawiki-extensions-Loops.git
+	branch = REL1_43
+[submodule "extensions/MobileFrontend"]
+	path = extensions/MobileFrontend
+	url = https://github.com/wikimedia/mediawiki-extensions-MobileFrontend.git
+	branch = REL1_43
+[submodule "extensions/Popups"]
+	path = extensions/Popups
+	url = https://github.com/wikimedia/mediawiki-extensions-Popups.git
+	branch = REL1_43
+[submodule "extensions/RandomSelection"]
+	path = extensions/RandomSelection
+	url = https://github.com/wikimedia/mediawiki-extensions-RandomSelection.git
+	branch = REL1_43
+[submodule "extensions/RegexFunctions"]
+	path = extensions/RegexFunctions
+	url = https://github.com/wikimedia/mediawiki-extensions-RegexFunctions.git
+	branch = REL1_43
+[submodule "extensions/Score"]
+	path = extensions/Score
+	url = https://github.com/wikimedia/mediawiki-extensions-Score.git
+	branch = REL1_43
+[submodule "extensions/TemplateSandbox"]
+	path = extensions/TemplateSandbox
+	url = https://github.com/wikimedia/mediawiki-extensions-TemplateSandbox.git
+	branch = REL1_43
+[submodule "extensions/Variables"]
+	path = extensions/Variables
+	url = https://github.com/wikimedia/mediawiki-extensions-Variables.git
+	branch = REL1_43
+[submodule "extensions/WikiSEO"]
+	path = extensions/WikiSEO
+	url = https://github.com/wikimedia/mediawiki-extensions-WikiSEO.git
+	branch = REL1_43
+[submodule "extensions/Widgets"]
+	path = extensions/Widgets
+	url = https://github.com/wikimedia/mediawiki-extensions-Widgets.git
+	branch = REL1_43
