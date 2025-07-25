@@ -206,3 +206,11 @@
 	path = extensions/Widgets
 	url = https://github.com/wikimedia/mediawiki-extensions-Widgets.git
 	branch = REL1_43
+[submodule "extensions/Tabs"]
+	path = extensions/Tabs
+	url = https://github.com/LLWiki/mediawiki-extensions-Tabs.git
+	branch = REL1_43
+[submodule "extensions/MP3MediaHandler"]
+	path = extensions/MP3MediaHandler
+	url = https://github.com/LLWiki/mediawiki-extensions-MP3MediaHandler.git
+	branch = REL1_43
