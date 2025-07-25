@@ -214,3 +214,15 @@
 	path = extensions/MP3MediaHandler
 	url = https://github.com/LLWiki/mediawiki-extensions-MP3MediaHandler.git
 	branch = REL1_43
+[submodule "extensions/PinyinSort"]
+	path = extensions/PinyinSort
+	url = https://github.com/LLWiki/MW-PinyinSort.git
+[submodule "extensions/MinervaMenus"]
+	path = extensions/MinervaMenus
+	url = https://github.com/LLWiki/MinervaMenus.git
+[submodule "extensions/ComboBox"]
+	path = extensions/ComboBox
+	url = https://github.com/LLWiki/ComboBox.git
+[submodule "extensions/LLWikiMessages"]
+	path = extensions/LLWikiMessages
+	url = https://github.com/LLWiki/LLWikiMessages.git
